@@ -1,0 +1,246 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-18 09:39:41.416571",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "award_category",
+  "column_break_kfwh",
+  "category_of_youth",
+  "youth_in_school",
+  "nomineeapplicant_section",
+  "full_name",
+  "region",
+  "phone",
+  "volunteering_period",
+  "column_break_xrry",
+  "date_of_birth",
+  "location_county",
+  "email",
+  "part_b",
+  "volunteering_experience",
+  "volunteer_achivements",
+  "reason_to_win",
+  "declaration",
+  "acknowledgement",
+  "section_break_stjg",
+  "volunteer_application",
+  "supporting_documents",
+  "cover_letter_recommendation_letter",
+  "column_break_tfli",
+  "videos",
+  "press_cuttings",
+  "testimonial",
+  "section_break_pijo",
+  "kobo_uid",
+  "date_submitted",
+  "form_id",
+  "submission_data",
+  "judges_votes_section",
+  "votes"
+ ],
+ "fields": [
+  {
+   "fieldname": "award_category",
+   "fieldtype": "Select",
+   "label": "Award Category",
+   "options": "a_a_molu_lifetime_achievement_award\ncommunity_health_volunteer_of_the_year\ncommunity_service_award\ncorporate_sector_humanitarian_award\ncounty_branch_of_the_year_award\nhumanitarian_media_house_award\nimplementing_partner_of_the_year\ninnovation_of_the_year\njunior_senior_red_cross_club_award\nmichael_sululu_volunteer_of_the_year_award\nrestoring_family_link_humanitarian_award\nspecial_recognition_award\nthe_inclusion_award\nthe_public_relation_humanitarian_award\nuniversity_chapters_award\nyouth_volunteer_of_the_year_award\ncommunity_actor_award\nimplemention_award\nresponse_team_award___eoc__rca"
+  },
+  {
+   "fieldname": "nomineeapplicant_section",
+   "fieldtype": "Section Break",
+   "label": "Nominee/Applicant"
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Select",
+   "label": "Region of Volunteering",
+   "options": "Central\nCoast\nLower_Eastern\nNorth_Eastern\nNorth_Rift\nSouth_Rift\nUpper_Eastern\nWest_Kenya"
+  },
+  {
+   "fieldname": "column_break_xrry",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "part_b",
+   "fieldtype": "Section Break",
+   "label": "Part B"
+  },
+  {
+   "fieldname": "volunteering_experience",
+   "fieldtype": "Small Text",
+   "label": "Volunteering Experience"
+  },
+  {
+   "fieldname": "volunteer_achivements",
+   "fieldtype": "Small Text",
+   "label": "Volunteer Achievements"
+  },
+  {
+   "fieldname": "declaration",
+   "fieldtype": "Section Break",
+   "label": "Declaration of Nominee"
+  },
+  {
+   "fieldname": "supporting_documents",
+   "fieldtype": "Attach",
+   "label": "Supporting Documents"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone Contact"
+  },
+  {
+   "fieldname": "volunteering_period",
+   "fieldtype": "Data",
+   "label": "Period of Volunteering(in months)"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "reason_to_win",
+   "fieldtype": "Small Text",
+   "label": "Reason To Win"
+  },
+  {
+   "default": "0",
+   "fieldname": "acknowledgement",
+   "fieldtype": "Check",
+   "label": "Information provided is true to best of my knowledge"
+  },
+  {
+   "fieldname": "section_break_stjg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "volunteer_application",
+   "fieldtype": "Attach",
+   "label": "Volunteer Application"
+  },
+  {
+   "fieldname": "cover_letter_recommendation_letter",
+   "fieldtype": "Attach",
+   "label": "cover letter/ recommendation letter"
+  },
+  {
+   "fieldname": "videos",
+   "fieldtype": "Attach",
+   "label": "Videos"
+  },
+  {
+   "fieldname": "press_cuttings",
+   "fieldtype": "Attach",
+   "label": "Press Cuttings"
+  },
+  {
+   "fieldname": "testimonial",
+   "fieldtype": "Attach",
+   "label": "Testimonial"
+  },
+  {
+   "fieldname": "column_break_tfli",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_pijo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_submitted",
+   "fieldtype": "Datetime",
+   "label": "Date Submitted"
+  },
+  {
+   "fieldname": "kobo_uid",
+   "fieldtype": "Data",
+   "label": "Kobo UID"
+  },
+  {
+   "fieldname": "form_id",
+   "fieldtype": "Data",
+   "label": "Form ID"
+  },
+  {
+   "fieldname": "submission_data",
+   "fieldtype": "Long Text",
+   "label": "Submission Data"
+  },
+  {
+   "fieldname": "judges_votes_section",
+   "fieldtype": "Section Break",
+   "label": "Judges Votes"
+  },
+  {
+   "fieldname": "votes",
+   "fieldtype": "Table",
+   "label": "Votes",
+   "options": "Volunteer Awards Votes"
+  },
+  {
+   "fieldname": "location_county",
+   "fieldtype": "Select",
+   "label": "County",
+   "options": "Baringo\nBomet\nBungoma\nBusia\nElgeyo_Marakwet\nEmbu\nGarissa\nHomabay\nIsiolo\nKajiado\nKakamega\nKericho\nKiambu\nKilifi\nKirinyaga\nKisii\nKisumu\nKitui\nKwale\nLaikipia\nLamu\nMachakos\nMakueni\nMandera\nMarsabit\nMeru\nMigori\nMombasa\nMuranga\nNairobi\nNakuru\nNandi\nNarok\nNyamira\nNyandarua\nNyeri\nSamburu\nSiaya\nTaita_Taveta\nTana_River\nTharaka_Nithi\nTrans_Nzoia\nTurkana\nUasin_Gishu\nVihiga\nWajir\nWest_Pokot"
+  },
+  {
+   "depends_on": "eval:doc.award_category == \"youth_volunteer_of_the_year_award\";",
+   "fieldname": "category_of_youth",
+   "fieldtype": "Select",
+   "label": "Category of Youth Volunteer",
+   "options": "\nyouth_in_school\nyouth_out_school"
+  },
+  {
+   "depends_on": "eval:doc.category_of_youth == \"youth_in_school\";",
+   "fieldname": "youth_in_school",
+   "fieldtype": "Select",
+   "label": "Youth In School",
+   "options": "\njunior_primary\nsenior_high\nuniversity_tert"
+  },
+  {
+   "fieldname": "column_break_kfwh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Nominee/Applicant Full Name"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-27 10:08:25.308792",
+ "modified_by": "Administrator",
+ "module": "Volunteer Awards",
+ "name": "Volunteer Awards",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name"
+}

@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-18 20:56:43.909311",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "base_url",
+  "api_token",
+  "asset_uid"
+ ],
+ "fields": [
+  {
+   "fieldname": "base_url",
+   "fieldtype": "Data",
+   "label": "Base URL"
+  },
+  {
+   "fieldname": "api_token",
+   "fieldtype": "Password",
+   "label": "API Token"
+  },
+  {
+   "fieldname": "asset_uid",
+   "fieldtype": "Data",
+   "label": "Asset UID"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-08-18 20:57:57.414466",
+ "modified_by": "Administrator",
+ "module": "Volunteer Awards",
+ "name": "Kobo VA Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
