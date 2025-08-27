@@ -51,6 +51,8 @@ ATTACH_MAP = {
     "Attach_Press_cuttings":                    "press_cuttings",
     "Attach_Testimonial":                       "testimonial",
     "Attach_any_other_supporting_document":     "supporting_documents",
+    "nominee_acknowledge_sign": "nominee_acknowledge_sign",  # image/signature
+    "Attache_Application_form": "application_form",          # note KoBo typo: Attache
 }
 
 # ----- HTTP helpers -----
@@ -181,7 +183,7 @@ def _upsert_row_scalars(row: dict):
 
 # ----- PUBLIC: one page -----
 @frappe.whitelist()
-def pull_asset_batch(page_size: int = 10, start_page: int = 1, with_attachments: int = 1, log_missing: int = 0):
+def pull_asset_batch(page_size: int = 10, start_page: int = 1, with_attachments: int = 0, log_missing: int = 0):
     """
     Import one KoBo page.
       page_size        default 10
